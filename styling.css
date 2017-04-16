@@ -10,9 +10,9 @@ body {
 {
    top:49px;
    width:60px;
-   position:absolute;
+ position:absolute;
    animation-name:movetarget;
-   animation-duration:3s;
+   animation-duration:20s;
    animation-iteration-count:infinite;
    animation-direction:alternate;
    -webkit-animation-duration:3s;
@@ -25,8 +25,8 @@ body {
 {
 width:100px;
 position:absolute;
-top:350px;
 left:100px;
+top:330px;
 }
 
 #bullet
@@ -34,7 +34,7 @@ left:100px;
    width:50px;
    position:absolute ;
    top:330px;
-   left:125px;
+   left:132px;
    display:none;
 }
 
@@ -85,3 +85,4 @@ left:100px;
    left:220px;
    top:330px;
 }
+#options{margin-top:370px}
