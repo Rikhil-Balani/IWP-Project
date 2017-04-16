@@ -1,10 +1,12 @@
 var hits = 0;
+//<<<<<<< HEAD
+
+
+//=======
 
 var missed = 0; 
-var count=0;
-function ThankYou(){
-alert("Welcome !!!!!!!!");
-}
+
+
 
 function Shoot()
 
@@ -12,7 +14,6 @@ function Shoot()
    
 var bullet = document.getElementById("bullet");
    
-
 bullet.offsetTop=330;
    
 var target = document.getElementById("target");
@@ -72,9 +73,8 @@ function moveBullet()
                                 } 
 document.getElementById("hits").innerHTML= "Hits: "+hits;
 document.getElementById("missed").innerHTML="Missed: "+missed;
-check_hits();
+   check_hits();
 }
-
 function check_hits()
 {
 	if(count==0)
@@ -87,8 +87,8 @@ function check_hits()
 		}
 	}
 }
-
 };
-function change_Bullet(){}
-	
-
+function ThankYou(){
+alert("Welcome !!!!!!!!");
+}
+//>>>>>>> 57f15fff207720a17d7c670d93fa23e794c2e1d8
