@@ -1,7 +1,7 @@
 var hits = 0;
 //<<<<<<< HEAD
 
-
+var count=0;
 //=======
 
 var missed = 0; 
